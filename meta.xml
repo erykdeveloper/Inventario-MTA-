@@ -1,0 +1,34 @@
+<meta>
+    <script src="gSuspiro.lua" type="shared" cache="false" />
+    
+    <script src="main/cSuspiro.lua" type="client" cache="false" />
+    <script src="main/sSuspiro.lua" type="server" cache="false" />
+
+    <script src="main/interactions/cSuspiro.lua" type="client" cache="false" />
+    <script src="main/interactions/sSuspiro.lua" type="server" cache="false" />
+
+    <script src="main/shop/cSuspiro.lua" type="client" cache="false" />
+    <script src="main/shop/sSuspiro.lua" type="server" cache="false" />
+    
+    <script src="assets/dxlibs/dxEditBox.lua"  type="client" cache="false"/>
+
+    <file src="assets/font/regular.ttf" cache="false"/>
+    <file src="assets/font/icons.otf" cache="false"/>
+
+	<file src="assets/icons/drogas.png" cache="false" />
+	<file src="assets/icons/utilitarios.png" cache="false" />
+	<file src="assets/icons/armas.png" cache="false" />
+	<file src="assets/icons/alimentos.png" cache="false" />
+
+	<file src="assets/sounds/click.mp3" cache="false" />
+	<file src="assets/sounds/click_2.mp3" cache="false" />
+	<file src="assets/sounds/open.mp3" cache="false" />
+	<file src="assets/sounds/sell.wav" cache="false" />
+
+    <export function="giveBagItem" type="shared" />
+    <export function="takeBagItem" type="shared" />
+    <export function="getBagItem" type="shared" />
+    <export function="getBagItemC" type="client" />
+    <export function="getAllBagItens" type="shared" />
+    
+</meta>
